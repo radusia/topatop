@@ -1,0 +1,8 @@
+name = Custome Product Bulk Operations
+description = Allows additional custome operations (bulk price/title.. update) on products view.
+package = Custom Product Management
+dependencies[] = views
+dependencies[] = features
+core = 7.x
+files[] = js/custom_product_management.js
+files[] = css/custom_product_management.css

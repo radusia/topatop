@@ -1,0 +1,7 @@
+.custom-bulk-operations div, 
+.custom-bulk-operations input, 
+.custom-bulk-operations select, 
+.custom-bulk-operations label,
+.custom-bulk-operations p{
+	display: inline;
+}

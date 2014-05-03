@@ -1,0 +1,13 @@
+<?php
+/**
+ * @file custom_product_management.module
+ * Custom module.
+*/
+
+/**
+ * Implements hook_views_init().
+ */
+function custom_product_management_init() {
+  drupal_add_css(drupal_get_path('module', 'custom_product_management') . '/css/custom_product_management.css');
+  drupal_add_js(drupal_get_path('module', 'custom_product_management') . '/js/custom_product_management.js');
+}
